@@ -187,12 +187,12 @@ section .title::after{
     margin: auto 0 auto 30px;
 }
 .home .home-content .text-1{
-    text-shadow: -1px -1px 3px #222;
-    color: rgba(240, 240, 240, 0.933);
-    font-size: 27px;
+    text-shadow: -1px -1px 2px #222;
+    color: rgb(21, 251, 228);
+    font-size: 30px;
 }
 .home .home-content .text-2{
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
@@ -285,7 +285,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "created while studying";
+    content: "Websites I Made";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -483,7 +483,7 @@ section .title::after{
 }
 .overlay .close{
     text-transform: uppercase;
-    color: crimson;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
@@ -491,7 +491,7 @@ section .title::after{
     position: absolute;
     align-self: stretch;
     top: 40px;
-    text-shadow: 1px 1px 2px rgba(79, 77, 77, 0.953);
+    text-shadow: 1px 1px 2px rgba(12, 12, 12, 0.953);
 }
 .overlay:target .close{
     animation: slideClose .8s .8s forwards;
